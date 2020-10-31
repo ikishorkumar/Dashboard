@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
+body {
+  background-color: #CFCFCF;
+}
+.Header {
+  color: rgb(19, 18, 18);
+  width: 100% !important;
+  border-radius: 10px;
+  height: 56px;
+  background: rgba(233, 232, 232, 0.945);
+  margin: auto 0px;
+  float: left;
+}
+
+.MainDashboard {
+  margin-top: 10px;
+}
+
+.Heading {
+  text-align: left;
+  width: fit-content;
+  padding: auto 0px !important;
+  margin: auto 0px !important;
+}
+#heading {
+  font-weight: 800 !important;
+  line-height: 1;
+  font-size: 22px !important;
+  padding: auto 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+#dropdownmenu {
+  background: rgba(233, 232, 232, 0.856);
+  margin: auto 15px;
+  max-width:  150px !important;
+  align-items: center;
+  padding: 0px !important;
+  font-weight: 900 !important;
+  line-height: 1;
+  font-size: 12px !important;
+}
+
+.WidgetWraper {
+  margin-bottom: 20px !important;
+  margin: 0px auto;
+  margin-top: 10px !important;
+  background-color: rgb(238, 238, 238);
+  width: fit-content;
+  color: rgb(66, 63, 63);
+  text-align: left;
+  text-shadow: 1px 4px 8px rgba(218, 210, 210, 0.918);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.WidgetWraper text {
+  fill: rgb(4, 7, 7);
+}
+.WidgetTitle {
+  font-family: Nunito;
+  text-transform: uppercase;
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.WidgetValue {
+  font-size: 22px !important;
+  font-family: Nunito;
+  font-weight: 900 !important;
+}
+
+
+
+.Footer {
+  height: 20px !important;
+  font-size: 22px !important;
+  line-height: 0.8 !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.Footer h1 {
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  height: 26px !important;
+  background: rgb(48, 45, 45);
+  font-size: 12px !important;
+  line-height: 0.8 !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
